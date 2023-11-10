@@ -5,6 +5,18 @@ Algoritmo burbuja
 
 
 def bubbleAlgorythm(a: list):
+    """Solves and puts the values of an array in order through the use of the bubble algorithm.
+    
+    Parameters
+    ----------
+    a : list
+        The array to be ordered correctly by the bubble algorithm.
+        
+    Returns
+    -------
+    a : list
+        The same list from before, now properly ordered by the bubble algorithm.
+    """
     total = len(a) - 1
     
     for i in range(1, len(a)):
